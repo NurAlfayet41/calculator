@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By Muhammad Nur Alfayet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <table id="kalkulator">
+        <tr>
+            <td colspan="4">
+                <input type="text" id="display" readonly style="border-radius: 10%;">
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="9" onclick="tampilkanNilaiButton('9')"></td>
+            <td><input type="button" value="8" onclick="tampilkanNilaiButton('8')"></td>
+            <td><input type="button" value="7" onclick="tampilkanNilaiButton('7')"></td>
+            <td><input type="button" value="+" onclick="tampilkanNilaiButton('+')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="tampilkanNilaiButton('4')"></td>
+            <td><input type="button" value="5" onclick="tampilkanNilaiButton('5')"></td>
+            <td><input type="button" value="6" onclick="tampilkanNilaiButton('6')"></td>
+            <td><input type="button" value="-" onclick="tampilkanNilaiButton('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="tampilkanNilaiButton('1')"></td>
+            <td><input type="button" value="2" onclick="tampilkanNilaiButton('2')"></td>
+            <td><input type="button" value="3" onclick="tampilkanNilaiButton('3')"></td>
+            <td><input type="button" value="*" onclick="tampilkanNilaiButton('*')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" onclick="tampilkanNilaiButton('0')"></td>
+            <td><input type="button" value="/" onclick="tampilkanNilaiButton('/')"></td>
+            <td><input type="button" value="%" onclick="tampilkanNilaiButton('%')"></td>
+            <td><input type="button" value="**" onclick="tampilkanNilaiButton('**')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="c" onclick="hapus()"></td>
+            <td><input type="button" value="<" onclick="tampilkanNilaiButton('<')"></td>
+            <td><input type="button" value=">" onclick="tampilkanNilaiButton('>')"></td>
+            <td><input type="button" value="=" onclick="equal('=')"></td>
+        </tr>
+    </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
